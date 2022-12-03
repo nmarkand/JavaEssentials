@@ -9,7 +9,7 @@ public class HashMapTest {
         System.out.println("ADDING ELEMENTS TO HASHMAP");
         HashMap<Integer, String> myHashMap = new HashMap<>();
 
-        myHashMap.put(1, "Nilay");
+        System.out.println(myHashMap.put(1, "Nilay"));
         myHashMap.put(2, "Vishakha");
         myHashMap.put(3, "Prakrati");
         myHashMap.put(4, "ABC");

@@ -16,6 +16,9 @@ public class ArrayListRemoveTest {
         System.out.println("REMOVING ELEMENT FROM 1ST INDEX");
         myList.remove(0);
         myList.forEach(list -> System.out.print(list + ", ") );
+        System.out.println("");
+        myList.remove(new Integer(96));
+        myList.forEach(list -> System.out.print(list + ", ") );
 
         System.out.println("");
         //RemoveAll removes all elements from a list provided as an argument(collection) to it
